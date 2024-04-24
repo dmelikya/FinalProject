@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     modal.addEventListener('click', function(event) {
         if (event.target === modal) {
             closeModal();
+            location.reload();
         }
     });
 
