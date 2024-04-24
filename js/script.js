@@ -59,6 +59,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    const closeButton = document.querySelector('.close-button');
-    closeButton.addEventListener('click', closeModal);
 });
